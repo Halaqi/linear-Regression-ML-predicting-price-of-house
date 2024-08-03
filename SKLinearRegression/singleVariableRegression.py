@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error
 
 
 # loading the data
-data = pd.read_csv(r"D:\programming\Machine learning\findHousePrice\houseDataSet.txt")
+data = pd.read_csv("houseDataSet.txt")
 
 # testing the missing values
 missing_values = SimpleImputer(missing_values=np.nan, strategy='mean')
