@@ -8,7 +8,7 @@ from sklearn.linear_model import SGDRegressor
 from sklearn.metrics import mean_squared_error
 
 # Load the data
-data = pd.read_csv(r"D:\programming\Machine learning\findHousePrice\houseDataSet.txt")
+data = pd.read_csv("houseDataSet.txt")
 
 # Handle missing values
 missing_values = SimpleImputer(missing_values=np.nan, strategy='mean')
