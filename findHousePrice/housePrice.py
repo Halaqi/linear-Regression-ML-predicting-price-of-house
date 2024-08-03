@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the file
-path = r"D:\programming\Machine learning\findHousePrice\houseDataSet.txt"
+path = 'houseDataSet.txt'
 data = pd.read_csv(path, header=None, names=['area', 'price'])
 
 # Insert extra column
